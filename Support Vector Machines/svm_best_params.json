@@ -1,0 +1,11 @@
+{
+  "best_params": {
+    "C": 10,
+    "gamma": "scale",
+    "kernel": "rbf"
+  },
+  "validation_macro_precision": 0.9849512945722555,
+  "validation_macro_recall": 0.9848518013714264,
+  "validation_macro_f1": 0.9848925433392637,
+  "grid_search_time_minutes": 13.598016607761384
+}

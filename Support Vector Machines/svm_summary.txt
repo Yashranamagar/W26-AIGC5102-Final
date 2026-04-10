@@ -1,0 +1,20 @@
+SVM Training Summary
+============================================================
+Input data:              PCA 95% variance (154 features)
+Training samples:        48000
+Validation samples:      12000
+Test samples:            10000
+Grid search time:        13.60 minutes
+
+BEST HYPERPARAMETERS (optimized for Macro F1):
+  {'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}
+
+Validation Macro Precision: 0.984951
+Validation Macro Recall:    0.984852
+Validation Macro F1:        0.984893
+Validation Accuracy:        0.985000
+
+Test Macro Precision:       0.985388
+Test Macro Recall:          0.985293
+Test Macro F1:              0.985335
+Test Accuracy:              0.985400
