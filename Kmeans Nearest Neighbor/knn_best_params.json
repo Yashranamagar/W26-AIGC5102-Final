@@ -1,0 +1,11 @@
+{
+  "best_params": {
+    "n_neighbors": 3,
+    "p": 2,
+    "weights": "distance"
+  },
+  "validation_macro_precision": 0.9755410894259586,
+  "validation_macro_recall": 0.9747660603226125,
+  "validation_macro_f1": 0.9750413420715885,
+  "grid_search_time_minutes": 10.673065376281738
+}

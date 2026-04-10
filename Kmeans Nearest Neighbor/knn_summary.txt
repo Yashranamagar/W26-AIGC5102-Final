@@ -1,0 +1,20 @@
+k-NN Training Summary
+============================================================
+Input data:              PCA 95% variance (154 features)
+Training samples:        48000
+Validation samples:      12000
+Test samples:            10000
+Grid search time:        10.67 minutes
+
+BEST HYPERPARAMETERS (optimized for Macro F1):
+  {'n_neighbors': 3, 'p': 2, 'weights': 'distance'}
+
+Validation Macro Precision: 0.975541
+Validation Macro Recall:    0.974766
+Validation Macro F1:        0.975041
+Validation Accuracy:        0.975167
+
+Test Macro Precision:       0.973242
+Test Macro Recall:          0.972760
+Test Macro F1:              0.972923
+Test Accuracy:              0.973100
